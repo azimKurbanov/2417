@@ -6,6 +6,6 @@ const StatusBadge = ({ status }) => {
     const inactive = "bg-red-100 text-red-700";
     return <span className={`${base} ${status === "Active" ? active : inactive}`}>{status}</span>;
   };
-  
+  <h1>salom</h1>
   export default StatusBadge;
   
